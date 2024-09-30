@@ -1,0 +1,119 @@
+/*!***************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[3].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[3].use[3]!./css/style.scss ***!
+  \***************************************************************************************************************************************************************************************************************************************/
+/*Main Styles list of modules and base modules
+If you create a new css module, you must include it here (as import)
+*/
+/*From Colour Palette - https://colorhunt.co/palette/101433 */
+/*Crazy Pink Theme - lets see how this goes - https://colorhunt.co/palette/145074*/
+/*Tutorial chose #505962*/
+/*We use mixins to create small reusable css code*/
+/*The at<size> will create the media queires for us*/
+body {
+  overflow-x: hidden;
+  font-family: "Lato", sans-serif;
+  color: #323232;
+  /*background-color: $greyBlack; /*TEMP PLEASE REMOVE!!*/
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+a {
+  color: #d61d4e;
+}
+
+a:hover {
+  color: #ff0b55;
+}
+
+.add-color-main {
+  color: #ff0b55;
+}
+
+/*Remove Googles reCapture Badge*/
+.grecaptcha-badge {
+  display: none;
+}
+
+/*paginatelinks*/
+.paginatelinks {
+  padding: 1.5rem;
+}
+
+/*Global Bootstrap rule - adding 1 rem to all columns */
+[class*=col-] {
+  padding: 1rem;
+}
+
+hr.socket {
+  border-top: 0.2rem solid rgba(255, 255, 255, 0.2);
+  width: 100%;
+}
+
+.self-centre-md {
+  margin: 0 auto;
+}
+
+p.dark-bg-padding {
+  background: #333333;
+  color: white;
+  padding: 15px;
+}
+
+.message-alert {
+  /*Default not to show the message*/
+  background-color: grey;
+  padding: 20px;
+  color: white;
+  margin-bottom: 15px;
+  opacity: 0;
+  transition: opacity 0.6s; /* 600ms to fade out */
+  /* The close button */
+  /* When moving the mouse over the close button */
+  /*Show the message box*/
+  /* Red */
+}
+.message-alert .closebtn {
+  margin-left: 15px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.message-alert .closebtn:hover {
+  color: black;
+  cursor: pointer;
+}
+.message-alert.show {
+  display: block;
+  opacity: 1;
+  transition: opacity 0.6s; /* 600ms to fade out */
+}
+.message-alert.fail {
+  background-color: #f44336;
+}
+.message-alert.success {
+  background-color: #04AA6D;
+}
+.message-alert.info {
+  background-color: #2196F3;
+}
+.message-alert.warning {
+  background-color: #ff9800;
+}
+
+.gge-travel-drop-shadow {
+  filter: drop-shadow(5px 5px 10px black);
+}
+
+/*# sourceMappingURL=style-index.css.map*/

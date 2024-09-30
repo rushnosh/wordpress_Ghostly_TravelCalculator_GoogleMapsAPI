@@ -1,0 +1,18 @@
+{
+  "name": "travelcostfrontend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "wp-scripts build",
+    "start": "wp-scripts start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@wordpress/scripts": "^19.2.2",
+    "axios": "^0.24.0"
+  },
+  "description": ""
+}
